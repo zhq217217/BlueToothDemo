@@ -17,6 +17,10 @@ public class MainActivity extends FragmentActivity {
         mFlFragmentHolder = (FrameLayout) findViewById(R.id.fl_holder);
     }
 
+    /**
+     * 扫描蓝牙，打开蓝牙，进行连接
+     * @param view
+     */
     public void openBlue(View view) {
         getFragmentManager().beginTransaction().replace(R.id.fl_holder, BlueListFragment.getInstance()).commit();
     }
