@@ -18,7 +18,7 @@ public class MainActivity extends FragmentActivity {
     }
 
     /**
-     * 扫描蓝牙，打开蓝牙，进行连接
+     * 扫描蓝牙，打开蓝牙，进行连接     
      * @param view
      */
     public void openBlue(View view) {
